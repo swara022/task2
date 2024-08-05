@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>music player</title>
+        <link rel="stylesheet" href="stylea.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="music-player">
+            <h1 id="music-title">Kaise Hua</h1>
+            <p id="music-artist">Artist-Vishal Mishra</p>
+            <div class="image">
+                <img src="C:\Users\Swarangi\Pictures\channels4_profile.jpg" id="cover" class="active">
+            </div>
+            <div class="player-progress" id="player-progress">
+                <div class="progress" id="progress">
+                    <div class="song-slider" id="slider">
+                        <input type="range" value="0" class="seek-bar">
+                        <span class="current-time" id="current-time">00:00</span>
+                        <span class="song-duration" id="song-duration">00:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="box">
+                    <i class="fa-solid fa-backward" title="prev" id="prev"></i>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-play" title="play" id="play"></i>
+                    
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-forward" title="next" id="next"></i>
+                </div>
+            </div> 
+        </div>
+        <script src="a.js"></script>
+    </body>
+</html>
